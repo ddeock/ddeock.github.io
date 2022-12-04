@@ -1,0 +1,25 @@
+body {background:#000}
+
+#wrapper {position:relative; display:flex; height:100vh;}
+#container {position:relative; width:430px; margin:auto; text-align:center; background-color: rgba(255, 255, 255, 0.1); padding:30px 30px; border-radius:20px;}
+
+.hidden {display:none;}
+
+.login_div {text-align:center; color:#fff; margin:20px 0 0 0;}
+.login_div input {border:none; border-bottom:2px solid #fff; background:none; font-size:14px; color:#fff; width:200px; text-align:center;}
+.login_div input::placeholder {color:#fff; text-align:center;}
+.login_div .login_txt h1 {font-size:18px; margin:10px 0 0 0;}
+
+#clock {color:#fff; font-size:70px; font-family:Arial, Helvetica, sans-serif;}
+
+#quotes {color:#fff; position:fixed; right:10px; bottom:10px; background-color: rgba(0, 0, 0, 0.5); padding:10px 20px; border-radius:5px; font-size:14px;}
+
+#weather {position:fixed; left:20px; top:20px; color:#fff; font-size:20px;}
+
+.todo_div {position:fixed; right:20px; top:20px;}
+.todo_div input {color:#fff; border:1px solid rgba(255, 255, 255, 0.2); background-color: rgba(255, 255, 255, 0.1); border-radius:5px; padding:5px 10px;}
+.todo_div input::placeholder {color:#fff; text-align:center;}
+.todo_div #todo_ul {margin:5px 0 0 0 ; background-color: rgba(255, 255, 255, 0.1); border-radius:5px; padding:0 10px 5px 10px; line-height:22px;}
+.todo_div #todo_ul li {text-align:left; color:#fff; padding:2px 0 2px 0;}
+.todo_div #todo_ul li strong {color:#fff; margin-right:5px; vertical-align:middle;}
+.todo_div #todo_ul li button {background:none; border:none; margin-left:5px; vertical-align:middle; font-size:10px; color:red;}

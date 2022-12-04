@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> </title>
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="wrapper">
+    <div id="container">
+      <div id="clock"></div>
+      <div class="login_div">
+        <form id="login_form" class="hidden">
+          <input type="text" required maxlength="10" placeholder="Enter Your Name">
+        </form>
+        <div class="hidden login_txt">
+          <span>welcome</span>
+          <h1 id="login_name"></h1>      
+        </div>
+      </div>
+      <div id="quotes"></div>
+      <div id="weather">
+        <span></span>
+        <span></span>
+      </div>
+      <div class="todo_div">
+        <form action="" id="todo_form">
+          <input type="text" required placeholder="todo list">
+        </form>
+        <ul id="todo_ul"></ul>
+      </div>
+    </div>
+  </div>
+  <script src="js/login.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/background.js"></script>
+  <script src="js/quotes.js"></script>
+  <script src="js/weather.js"></script>
+  <script src="js/todo.js"></script>
+</body>
+</html>
